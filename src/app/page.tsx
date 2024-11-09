@@ -20,7 +20,7 @@ export default function Home() {
           <div className='cursor-pointer' onClick={() => setClicked(2)}>
             <img src="/banner.png" alt="waifus for alignment" className="border-[20px] border-black rounded-md object-contain object-bottom" />
           </div>
-          <div className='cursor-pointer' onClick={() => setClicked(true)}>
+          <div className='cursor-pointer' onClick={() => setClicked(3)}>
             <p className="text-md text-center underline text-gray-800 mt-4">CLICK ME</p>
           </div>
         </div>
